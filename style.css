@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    height: 80px;
+    
+}
+
+.left-side-header{
+    margin-left: 80px;
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+   
+    
+}
+.logo, .logo-snimka, .logo-text{
+    display: flex;
+    
+    
+}
+.logo{
+align-items: center;
+gap: 10px;
+width: 140px;
+height: 29px;
+}
+
+.left-side-header, .right-side-header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-side-text{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+
+    color: #000;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.15px;
+display: flex;
+align-items: center;
+margin: 0px 32px 0px 32px;
+}
+.right-side-header{
+    margin-right: 10px;
+}
+
+.button-karta{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-right: 10px;
+
+
+border-radius: 32px;
+border: 1px solid var(--primary, #2E2EC8);
+background: var(--backgrounds-l-0, #FFF);
+
+}
+
+.button-text{
+    color: var(--primary, #2E2EC8);
+
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
